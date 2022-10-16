@@ -1,8 +1,9 @@
 # React Component Publisher Playground
 
+## Boilerplate starter kit for creating and publishing react components
 ### Get Started
 
-Easily create and export components rom within the `/src` folder. Unit tests and a basic development environment are already configured and ready to run via `npm` scripts.
+Easily create and export components from within the `/src` folder. Unit tests and a basic development environment are already configured and ready to run via `npm` scripts.
 
 ---
 **NPM Scripts**
