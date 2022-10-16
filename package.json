@@ -12,7 +12,6 @@
     "webpack": "webpack",
     "build": "webpack --node-env=production",
     "prebuild": "npm t",
-    "publish": "npm publish",
     "build:dev": "webpack --node-env=development",
     "watch": "webpack --watch --node-env=development",
     "serve": "webpack serve --node-env=development --open",
