@@ -1,6 +1,6 @@
 {
   "name": "react-component-publisher",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Boilerplate component publisher for React",
   "main": "lib/index.js",
   "repository": {
@@ -15,7 +15,8 @@
     "build:dev": "webpack --node-env=development",
     "watch": "webpack --watch --node-env=development",
     "serve": "webpack serve --node-env=development --open",
-    "jest": "jest"
+    "jest": "jest",
+    "prepare": "npm run build"
   },
   "keywords": [],
   "author": "",
