@@ -1,5 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOMClient from "react-dom/client";
+import "./main.css";
 import { Demo } from "../src/index.jsx";
 
 const App = () => {
@@ -11,4 +12,4 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOMClient.createRoot(document.getElementById("root")).render(<App />);
