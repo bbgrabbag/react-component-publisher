@@ -6,7 +6,7 @@ Easily create, export and publish React.js components. Unit tests and a basic de
 
 ### Get Started
 
-- Create and export components within `/src` folder.
+- Create components within `/src/components` folder. Export them from `/src/index.jsx`.
 - Write unit tests within `/src` folder which follow this naming convention: `<filename>.spec.jsx`.
 - Build a playground browser application using your library of custom components within the `/playground` folder.
 
@@ -17,4 +17,5 @@ Easily create, export and publish React.js components. Unit tests and a basic de
 - `npm run build`: build production bundle
 - `npm run build:dev`: build development bundle only
 - `npm run watch`: build development bundle in watch mode
+- `npm publish`: publish package. `build` and `test` scripts will automatically run first.
     

@@ -5,7 +5,12 @@ module.exports = {
     mode: 'production',
     output: {
         path: path.resolve(__dirname, '..', 'lib'),
-        filename: "index.js"
+        filename: "index.js",
+        clean: true,
+        library: {
+            name: 'RCP',
+            type: 'umd'
+        }
     },
     module: {
         rules: [
