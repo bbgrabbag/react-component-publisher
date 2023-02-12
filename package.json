@@ -15,8 +15,7 @@
     "build:dev": "webpack --node-env=development",
     "watch": "webpack --watch --node-env=development",
     "serve": "webpack serve --node-env=development --open",
-    "jest": "jest",
-    "prepare": "npm run build"
+    "jest": "jest"
   },
   "keywords": [],
   "author": "",
