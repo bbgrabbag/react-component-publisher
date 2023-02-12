@@ -1,5 +1,7 @@
 # Changelog
 
+- `v1.0.5`
+    - Remove preprepare script which was affecting package installation
 - `v1.0.4`
     - UMD module bugfix
 

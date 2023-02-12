@@ -1,4 +1,5 @@
 # React Component Publisher Playground
+[Release Notes](/changelog.md)
 
 ## Boilerplate starter kit for creating and publishing React components
 
